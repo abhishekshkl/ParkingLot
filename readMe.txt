@@ -13,5 +13,5 @@ Steps to Run the Solution -->
 2) Run
 3) It will take input Jsons specified in InputFiles path, calculate and return Output in a JSON stored in OutputFiles Path.
 
-NOTE:-All the 3 inputs output I have merged in Single Output JSON and structured in a manner one can understand input and its corresponding Output.
+NOTE:-For All the 3 inputs-->  Output I have merged in Single Output JSON and structured in a manner one can understand input and its corresponding Output.
 
