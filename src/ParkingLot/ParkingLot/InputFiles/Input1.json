@@ -1,0 +1,34 @@
+{
+  "ParkingSpaceDetails": [
+    {
+      "VehicleType": "Car",
+      "Spots": 80
+    },
+    {
+      "VehicleType": "MotorCycle",
+      "Spots": 100
+    },
+    {
+      "VehicleType": "Truck",
+      "Spots": 10
+    }
+  ],
+  "ParkingDetails": [
+    {
+      "VehicleType": "MotorCycle",
+      "Hours": 3,
+      "Minutes": 30
+    },
+    {
+      "VehicleType": "Car",
+      "Hours": 6,
+      "Minutes": 1
+    },
+    {
+      "VehicleType": "Truck",
+      "Hours": 1,
+      "Minutes": 59
+    }
+  ],
+  "SpaceType": "Mall"
+}

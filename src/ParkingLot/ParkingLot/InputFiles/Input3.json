@@ -1,0 +1,49 @@
+{
+  "ParkingSpaceDetails": [
+    {
+      "VehicleType": "Car",
+      "Spots": 500
+    },
+    {
+      "VehicleType": "MotorCycle",
+      "Spots": 200
+    },
+    {
+      "VehicleType": "Truck",
+      "Spots": 100
+    }
+  ],
+  "ParkingDetails": [
+    {
+      "VehicleType": "MotorCycle",
+      "Hours": 0,
+      "Minutes": 55
+    },
+    {
+      "VehicleType": "MotorCycle",
+      "Hours": 14,
+      "Minutes": 59
+    },
+    {
+      "VehicleType": "MotorCycle",
+      "Hours": 36,
+      "Minutes": 0
+    },
+    {
+      "VehicleType": "Car",
+      "Hours": 0,
+      "Minutes": 50
+    },
+    {
+      "VehicleType": "Car",
+      "Hours": 23,
+      "Minutes": 59
+    },
+    {
+      "VehicleType": "Car",
+      "Hours": 73,
+      "Minutes": 0
+    }
+  ],
+  "SpaceType": "Airport"
+}

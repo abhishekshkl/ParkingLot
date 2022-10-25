@@ -1,0 +1,314 @@
+[
+  {
+    "Input": {
+      "ParkingSpaceDetails": [
+        {
+          "VehicleType": "Car",
+          "Spots": 80
+        },
+        {
+          "VehicleType": "MotorCycle",
+          "Spots": 100
+        },
+        {
+          "VehicleType": "Truck",
+          "Spots": 10
+        }
+      ],
+      "ParkingDetails": [
+        {
+          "VehicleType": "MotorCycle",
+          "Hours": 3,
+          "Minutes": 30
+        },
+        {
+          "VehicleType": "Car",
+          "Hours": 6,
+          "Minutes": 1
+        },
+        {
+          "VehicleType": "Truck",
+          "Hours": 1,
+          "Minutes": 59
+        }
+      ],
+      "SpaceType": "Mall"
+    },
+    "Outputs": [
+      {
+        "ParkingTicket": {
+          "TicketNumber": 0,
+          "SpotNumber": 0,
+          "EntryDate": "2022-10-21T23:58:40.274399+05:30",
+          "TicketType": 0
+        },
+        "ParkingReceipt": {
+          "ReceiptNumber": "R0",
+          "EntryDate": "2022-10-21T23:58:40.274399+05:30",
+          "ExitDate": "2022-10-22T03:28:40.274399+05:30",
+          "Fees": 40.0
+        }
+      },
+      {
+        "ParkingTicket": {
+          "TicketNumber": 1,
+          "SpotNumber": 0,
+          "EntryDate": "2022-10-21T23:58:40.2879863+05:30",
+          "TicketType": 0
+        },
+        "ParkingReceipt": {
+          "ReceiptNumber": "R1",
+          "EntryDate": "2022-10-21T23:58:40.2879863+05:30",
+          "ExitDate": "2022-10-22T05:59:40.2879863+05:30",
+          "Fees": 140.0
+        }
+      },
+      {
+        "ParkingTicket": {
+          "TicketNumber": 2,
+          "SpotNumber": 0,
+          "EntryDate": "2022-10-21T23:58:40.2890286+05:30",
+          "TicketType": 0
+        },
+        "ParkingReceipt": {
+          "ReceiptNumber": "R2",
+          "EntryDate": "2022-10-21T23:58:40.2890286+05:30",
+          "ExitDate": "2022-10-22T01:57:40.2890286+05:30",
+          "Fees": 100.0
+        }
+      }
+    ]
+  },
+  {
+    "Input": {
+      "ParkingSpaceDetails": [
+        {
+          "VehicleType": "Car",
+          "Spots": 1500
+        },
+        {
+          "VehicleType": "MotorCycle",
+          "Spots": 1000
+        }
+      ],
+      "ParkingDetails": [
+        {
+          "VehicleType": "MotorCycle",
+          "Hours": 3,
+          "Minutes": 40
+        },
+        {
+          "VehicleType": "MotorCycle",
+          "Hours": 14,
+          "Minutes": 59
+        },
+        {
+          "VehicleType": "Car",
+          "Hours": 11,
+          "Minutes": 30
+        },
+        {
+          "VehicleType": "Car",
+          "Hours": 13,
+          "Minutes": 5
+        }
+      ],
+      "SpaceType": "Stadium"
+    },
+    "Outputs": [
+      {
+        "ParkingTicket": {
+          "TicketNumber": 0,
+          "SpotNumber": 0,
+          "EntryDate": "2022-10-21T23:58:40.2901305+05:30",
+          "TicketType": 0
+        },
+        "ParkingReceipt": {
+          "ReceiptNumber": "R0",
+          "EntryDate": "2022-10-21T23:58:40.2901305+05:30",
+          "ExitDate": "2022-10-22T03:38:40.2901305+05:30",
+          "Fees": 30.0
+        }
+      },
+      {
+        "ParkingTicket": {
+          "TicketNumber": 1,
+          "SpotNumber": 0,
+          "EntryDate": "2022-10-21T23:58:40.2920142+05:30",
+          "TicketType": 0
+        },
+        "ParkingReceipt": {
+          "ReceiptNumber": "R1",
+          "EntryDate": "2022-10-21T23:58:40.2920142+05:30",
+          "ExitDate": "2022-10-22T14:57:40.2920142+05:30",
+          "Fees": 390.0
+        }
+      },
+      {
+        "ParkingTicket": {
+          "TicketNumber": 2,
+          "SpotNumber": 0,
+          "EntryDate": "2022-10-21T23:58:40.292032+05:30",
+          "TicketType": 0
+        },
+        "ParkingReceipt": {
+          "ReceiptNumber": "R2",
+          "EntryDate": "2022-10-21T23:58:40.292032+05:30",
+          "ExitDate": "2022-10-22T11:28:40.292032+05:30",
+          "Fees": 180.0
+        }
+      },
+      {
+        "ParkingTicket": {
+          "TicketNumber": 3,
+          "SpotNumber": 0,
+          "EntryDate": "2022-10-21T23:58:40.2924321+05:30",
+          "TicketType": 0
+        },
+        "ParkingReceipt": {
+          "ReceiptNumber": "R3",
+          "EntryDate": "2022-10-21T23:58:40.2924321+05:30",
+          "ExitDate": "2022-10-22T13:03:40.2924321+05:30",
+          "Fees": 580.0
+        }
+      }
+    ]
+  },
+  {
+    "Input": {
+      "ParkingSpaceDetails": [
+        {
+          "VehicleType": "Car",
+          "Spots": 500
+        },
+        {
+          "VehicleType": "MotorCycle",
+          "Spots": 200
+        },
+        {
+          "VehicleType": "Truck",
+          "Spots": 100
+        }
+      ],
+      "ParkingDetails": [
+        {
+          "VehicleType": "MotorCycle",
+          "Hours": 0,
+          "Minutes": 55
+        },
+        {
+          "VehicleType": "MotorCycle",
+          "Hours": 14,
+          "Minutes": 59
+        },
+        {
+          "VehicleType": "MotorCycle",
+          "Hours": 36,
+          "Minutes": 0
+        },
+        {
+          "VehicleType": "Car",
+          "Hours": 0,
+          "Minutes": 50
+        },
+        {
+          "VehicleType": "Car",
+          "Hours": 23,
+          "Minutes": 59
+        },
+        {
+          "VehicleType": "Car",
+          "Hours": 73,
+          "Minutes": 0
+        }
+      ],
+      "SpaceType": "Airport"
+    },
+    "Outputs": [
+      {
+        "ParkingTicket": {
+          "TicketNumber": 0,
+          "SpotNumber": 0,
+          "EntryDate": "2022-10-21T23:58:40.29245+05:30",
+          "TicketType": 0
+        },
+        "ParkingReceipt": {
+          "ReceiptNumber": "R0",
+          "EntryDate": "2022-10-21T23:58:40.29245+05:30",
+          "ExitDate": "2022-10-22T00:53:40.29245+05:30",
+          "Fees": 0.0
+        }
+      },
+      {
+        "ParkingTicket": {
+          "TicketNumber": 1,
+          "SpotNumber": 0,
+          "EntryDate": "2022-10-21T23:58:40.2928258+05:30",
+          "TicketType": 0
+        },
+        "ParkingReceipt": {
+          "ReceiptNumber": "R1",
+          "EntryDate": "2022-10-21T23:58:40.2928258+05:30",
+          "ExitDate": "2022-10-22T14:57:40.2928258+05:30",
+          "Fees": 60.0
+        }
+      },
+      {
+        "ParkingTicket": {
+          "TicketNumber": 2,
+          "SpotNumber": 0,
+          "EntryDate": "2022-10-21T23:58:40.2928389+05:30",
+          "TicketType": 0
+        },
+        "ParkingReceipt": {
+          "ReceiptNumber": "R2",
+          "EntryDate": "2022-10-21T23:58:40.2928389+05:30",
+          "ExitDate": "2022-10-23T11:58:40.2928389+05:30",
+          "Fees": 160.0
+        }
+      },
+      {
+        "ParkingTicket": {
+          "TicketNumber": 3,
+          "SpotNumber": 0,
+          "EntryDate": "2022-10-21T23:58:40.2928542+05:30",
+          "TicketType": 0
+        },
+        "ParkingReceipt": {
+          "ReceiptNumber": "R3",
+          "EntryDate": "2022-10-21T23:58:40.2928542+05:30",
+          "ExitDate": "2022-10-22T00:48:40.2928542+05:30",
+          "Fees": 60.0
+        }
+      },
+      {
+        "ParkingTicket": {
+          "TicketNumber": 4,
+          "SpotNumber": 0,
+          "EntryDate": "2022-10-21T23:58:40.2931467+05:30",
+          "TicketType": 0
+        },
+        "ParkingReceipt": {
+          "ReceiptNumber": "R4",
+          "EntryDate": "2022-10-21T23:58:40.2931467+05:30",
+          "ExitDate": "2022-10-22T23:57:40.2931467+05:30",
+          "Fees": 80.0
+        }
+      },
+      {
+        "ParkingTicket": {
+          "TicketNumber": 5,
+          "SpotNumber": 0,
+          "EntryDate": "2022-10-21T23:58:40.2931571+05:30",
+          "TicketType": 0
+        },
+        "ParkingReceipt": {
+          "ReceiptNumber": "R5",
+          "EntryDate": "2022-10-21T23:58:40.2931571+05:30",
+          "ExitDate": "2022-10-25T00:58:40.2931571+05:30",
+          "Fees": 400.0
+        }
+      }
+    ]
+  }
+]
